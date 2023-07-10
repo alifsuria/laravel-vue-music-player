@@ -1,0 +1,12 @@
+{
+  "include": ["./resources/js/vue/**/*", "./resources/js/vue/**/*.vue"],
+  "compilerOptions": {
+    "module": "ESNext",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./resources/js/vue/*"]
+    },
+    "moduleResolution":"node",
+    "allowSyntheticDefaultImports":true
+  },
+}

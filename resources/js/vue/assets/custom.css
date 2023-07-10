@@ -1,0 +1,222 @@
+body {
+    background-color: #130729;
+    color: grey;
+}
+
+.main-sidebar-vessel {
+    /* width: 250px; */
+    width: 25%;
+    background-color: #0C021C;
+    height: 100vh;
+    color: grey;
+}
+
+.main-sidebar-vessel .sidebar-custom-tab-item ,
+.main-sidebar-vessel .add-playlist-btn-group {
+    height: 35px;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px 5px 25px;
+    position: relative;
+    color: gray;
+    margin: 5px 0px;
+}
+.main-sidebar-vessel .add-playlist-btn-group {
+    padding: 5px 50px;
+}
+
+.main-sidebar-vessel .sidebar-custom-tab-item .tab-item-content {
+    /* height: 100px; */
+    margin-left: 20px;
+    font-size: 0.8rem;
+}
+
+.main-sidebar-vessel .sidebar-custom-tab-item.active::after {
+    content: "";
+    position: absolute;
+    right: 2px;
+    height: 35px;
+    width: 5px;
+    background-color: white;
+    box-shadow: white -5px 2px 20px 2px;
+}
+
+.main-sidebar-vessel .sidebar-custom-tab-item .tab-item-state {
+    /* content: ""; */
+    position: absolute;
+    right: 2px;
+    height: 35px;
+    width: 5px;
+    background-color: white;
+    box-shadow: white -5px 2px 20px 2px;
+}
+
+.main-sidebar-vessel .sidebar-item-group {
+    margin-bottom: 2rem;
+}
+
+.main-sidebar-vessel .sidebar-title-guide {
+    font-size: 0.75rem;
+    color: grey;
+    padding-left: 25px;
+    margin-bottom: 5px;
+}
+
+.main-sidebar-vessel .add-playlist-btn-group .add-playlist-btn-trigger{
+    width: 100%;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid #80808045;
+    padding: 5px 20px;
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Content */
+
+.content {
+    width: 100%;
+    padding: 2rem;
+}
+
+.content .content-title {
+
+    color: white;
+}
+
+.custom-navbar {
+    /* padding: 2rem; */
+    margin-bottom: 2rem;
+}
+
+.custom-navbar .navbar-item {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 8px;
+}
+
+.group-text-guide {
+    font-size: 0.7rem;
+}
+
+.recently-played-group .recently-played-list {
+    display: flex;
+    justify-content: space-between;
+    height: 200px;
+}
+
+.recently-played-group .recently-played-item {
+    margin: 0px 8px;
+}
+
+.recently-played-group .recently-played-item img {
+    width: 125px;
+    height: 125px;
+    border-radius: 10px;
+}
+
+.recently-played-group .recently-played-item .recently-played-title {
+    color: white;
+    font-size: 0.85rem;
+    margin-bottom: 2px;
+}
+
+.recently-played-group .recently-played-item .recently-played-artist {
+    color: grey;
+    font-size: 0.7rem;
+    margin-bottom: 0;
+}
+
+
+/* Recently Added Group Item */
+
+.rag-item.currently-played .rag-item-index span {
+    color: #C6024A;
+}
+.rag-item .rag-item-img-col {
+    width: 5rem;
+}
+.rag-item .rag-item-img-col .rag-item-img {
+    width: 50px;
+    height: 50px;
+}
+
+.rag-item .rag-item-title {
+    color: white;
+}
+
+.rag-item .rag-item-title,
+.rag-item .rag-item-artist {
+    font-size: 0.75rem;
+    margin-bottom: 0.25rem;
+}
+
+.rag-item .play-count-col{
+    font-size: 1.25rem;
+    /* vertical-align: middle; */
+}
+.rag-item .play-count-col .play-count-value{
+    font-size: 0.9rem;
+}
+
+.rag-item .rag-item-music-col .music-value{
+    font-size: 0.8rem;
+}
+.rag-item .rag-item-more-option-col .more-option{
+    font-size: 1.25rem;
+    color: grey;
+}
+
+
+/* Media Player */
+.media-player{
+    display: flex;
+    align-items: center;
+}
+.media-player .media-player-action .mp-inner-media-player-action{
+    display: flex;
+    width: 100%;
+}
+.media-player .media-player-action{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.media-player .mp-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.media-player .mp-button{
+    font-size: 1.5rem;
+    margin: 0 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease .15s;
+}
+.media-player .mp-button:hover{
+    /* background-color: rgba(254, 254, 254, 0.365); */
+    /* box-shadow: 5px 5px 2px rgba(255,175,100,0.5); */
+    box-shadow: inset 0px 0px 42px -9px rgb(255 255 255 / 50%),4px -3px 20px white;
+    color: white;
+}
+
+.media-player .center-mp-action{
+    display: flex;
+}
+.media-player .left-mp-action{
+    display: flex;
+}
+.media-player .right-mp-action{
+    display: flex;
+}
